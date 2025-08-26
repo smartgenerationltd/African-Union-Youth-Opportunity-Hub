@@ -99,7 +99,7 @@ export const Chatbot: React.FC = () => {
             </button>
           </header>
 
-          <div className="flex-1 p-4 overflow-y-auto bg-gray-50">
+          <div className="flex-1 p-4 overflow-y-auto bg-sky-50">
             <div className="space-y-4">
               {messages.map((msg, index) => (
                 <div key={index} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>

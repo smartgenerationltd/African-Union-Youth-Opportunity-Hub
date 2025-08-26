@@ -390,7 +390,7 @@ const AppContent: React.FC = () => {
   }
 
   return (
-    <div className="bg-gray-50 min-h-screen font-sans text-au-dark">
+    <div className="bg-sky-100 min-h-screen font-sans text-au-dark">
       <Header 
         onLogout={handleLogout} 
         isAdmin={isAdmin} 

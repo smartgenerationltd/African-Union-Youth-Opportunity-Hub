@@ -163,7 +163,7 @@ export const OpportunityModal: React.FC<OpportunityModalProps> = ({ opportunity,
                     <AssistantButton mode="Proposal" currentMode={activeMode} onClick={handleGenerateContent} Icon={PresentationChartLineIcon} text={t('opportunityModalProposalTips')} />
                 </div>
                 { (isLoading || error || assistantContent) && (
-                    <div className="mt-4 p-4 bg-gray-50 rounded-lg border">
+                    <div className="mt-4 p-4 bg-sky-50 rounded-lg border">
                         {isLoading && (
                             <div className="flex items-center text-gray-600">
                                 <svg className="animate-spin -ml-1 mr-3 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
@@ -182,7 +182,7 @@ export const OpportunityModal: React.FC<OpportunityModalProps> = ({ opportunity,
             </div>
         </div>
 
-        <div className="p-4 bg-gray-50 border-t rounded-b-lg flex justify-between items-center">
+        <div className="p-4 bg-sky-50 border-t rounded-b-lg flex justify-between items-center">
             <div>
                 <p className="text-sm font-semibold text-gray-700">{t('deadline')}</p>
                 <p className="text-sm text-gray-600">{opportunity.deadline}</p>

@@ -99,7 +99,7 @@ export const Login: React.FC<LoginProps> = ({ onLogin }) => {
   }
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-50 font-sans p-4">
+    <div className="flex items-center justify-center min-h-screen bg-sky-100 font-sans p-4">
       <div className="w-full max-w-sm p-8 space-y-6 bg-white rounded-2xl shadow-xl text-center">
         
         <div className="flex flex-col items-center space-y-2">
